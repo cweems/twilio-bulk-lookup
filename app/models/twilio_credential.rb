@@ -1,0 +1,2 @@
+class TwilioCredential < ApplicationRecord
+end
