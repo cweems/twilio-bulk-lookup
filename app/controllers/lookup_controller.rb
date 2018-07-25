@@ -1,5 +1,4 @@
 require 'twilio-ruby'
-require 'pry'
 
 class LookupController < ApplicationController
     def run
