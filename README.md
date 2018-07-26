@@ -7,6 +7,8 @@ Usage instructions:
 Before you start, you'll need a Twilio Account.
 
 1. Deploy to heroku
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
 1. Add your Twilio Credentials
 1. Upload your CSV
 1. Click the bulk lookup button
