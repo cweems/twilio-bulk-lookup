@@ -1,24 +1,14 @@
-# README
+# Twilio Bulk Lookup
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Twilio lookup allows you to determine if a phone number is a mobile number or a landline. This project allows you to upload a CSV, run a bulk lookup, and then download a CSV with information from the Lookup API.
 
-Things you may want to cover:
+Usage instructions:
 
-* Ruby version
+Before you start, you'll need a Twilio Account.
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+1. Deploy to heroku
+1. Add your Twilio Credentials
+1. Upload your CSV
+1. Click the bulk lookup button
+1. Wait for your lookup to process
+1. Download your results

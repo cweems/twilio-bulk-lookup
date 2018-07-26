@@ -1,0 +1,11 @@
+{
+    "name": "Twilio Bulk Lookup",
+    "description": "A simple Rails app that takes a CSV of phone numbers and runs a Twilio Lookup.",
+    "repository": "https://github.com/heroku/node-js-sample",
+    "keywords": [
+        "Twilio",
+        "Lookup",
+        "Phone Number Validation",
+        "Ruby"
+    ]
+}
