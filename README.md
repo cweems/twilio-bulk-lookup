@@ -7,7 +7,7 @@ Twilio lookup allows you to determine if a phone number is a mobile number or a 
 Before you start, you'll need the following:
 
 * A [Twilio Account](https://twilio.com/try-twilio)
-* A [Heroku Account] (https://signup.heroku.com)
+* A [Heroku Account](https://signup.heroku.com)
 * The [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) installed
 
 ## Setup
