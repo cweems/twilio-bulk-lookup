@@ -7,7 +7,7 @@ gem 'devise'
 gem 'active_admin_import'
 gem 'activeadmin'
 gem 'twilio-ruby'
-
+gem 'sidekiq'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.0'
 # Use postgresql as the database for Active Record
