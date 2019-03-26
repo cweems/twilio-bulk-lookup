@@ -1,3 +1,5 @@
+NOT SUPPORTED OR MAINTAINED BY TWILIO, USE AT YOUR OWN RISK.
+
 # Bulk Lookup for Twilio
 
 Twilio lookup allows you to determine if a phone number is a mobile number or a landline. This project allows you to upload a CSV, run a bulk lookup, and then download a CSV with information from the Lookup API.
