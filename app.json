@@ -1,8 +1,11 @@
 {
     "name": "Twilio Bulk Lookup",
     "description": "A simple Rails app that takes a CSV of phone numbers and runs a Twilio Lookup.",
-    "stack": "heroku-18"
-    "repository": "https://github.com/heroku/node-js-sample",
+    "stack": "heroku-20",
+    "repository": "https://github.com/cweems/twilio-bulk-lookup",
+    "addons": [
+        "heroku-redis:hobby-dev"
+    ],
     "keywords": [
         "Twilio",
         "Lookup",
