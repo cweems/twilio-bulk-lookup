@@ -18,7 +18,7 @@
         }
     },
     "scripts": {
-        "postdeploy": "bundle exec sidekiq -c 10"
+        "postdeploy": "bundle exec sidekiq -c 2"
     },
     "keywords": [
         "Twilio",
