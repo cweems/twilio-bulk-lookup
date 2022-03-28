@@ -7,19 +7,6 @@
         "heroku-redis:hobby-dev",
         "heroku-postgresql:hobby-dev"
     ],
-    "formation": {
-        "web": {
-            "quantity": 1,
-            "size": "free"
-        },
-        "apiworker": {
-            "quantity": 1,
-            "size": "free"
-        }
-    },
-    "scripts": {
-        "postdeploy": "bundle exec sidekiq -c 2"
-    },
     "keywords": [
         "Twilio",
         "Lookup",
