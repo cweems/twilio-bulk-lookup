@@ -4,8 +4,22 @@
     "stack": "heroku-20",
     "repository": "https://github.com/cweems/twilio-bulk-lookup",
     "addons": [
-        "heroku-redis:hobby-dev"
+        "heroku-redis:hobby-dev",
+        "heroku-postgresql:hobby-dev"
     ],
+    "formation": {
+        "web": {
+            "quantity": 1,
+            "size": "free"
+        },
+        "apiworker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    },
+    "scripts": {
+        "postdeploy": "bundle exec sidekiq -c 10"
+    },
     "keywords": [
         "Twilio",
         "Lookup",
